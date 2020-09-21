@@ -16,6 +16,28 @@ Datormācība(pamatkurss)elektroniskā klade
    13  echo &0 // выводит shell имя  
    14  tty  //print the file name of the terminal connected   
    15  man + command //описание комманды   
+   16  ls(-l,lt,al) //list  
+   17 tree // tree  
+   18 mkdir ABC//make directory w name ABC   
+   19 cd ABC/ //change directory to ABC  
+   20 cd //home  
+   21 cd . //enter folder  
+   22 cd .. //exit folder  
+   23 cd / //root  
+   24 cd ~ //home  
+   25 rmdir ABC //remove directory w/o files inside   
+   26 touch a.txt // make txt file w name a  
+   27 cat (file name).txt // read txt files  
+   28 > //writes text in files if there already is text replaces it  
+   29 >> //adds text in txt file  
+   30 nano (name.txt) //text redactor  
+   31 hexdump -C (name.txt) //show hex code  
+   32 rm (name.txt) // removes file -r //removes dir + files inside  
+   32 mv (WHAT) (WHERE) //move + rename  
+   33 cp name.text DIR/othername.text //copy  
+   34 ls -lt ../DIRNAME //look into other folder w/o closing already used directory  
+   
+   
 **Shortcut Keys**  
     1 Ctrl+L  //clean terminal screen    
     2 Ctrl+Shift+T  //making more tabs in terminal)    
@@ -23,3 +45,5 @@ Datormācība(pamatkurss)elektroniskā klade
     4 Alt+Tab  //like in windows switching apps    
 **Shell**  
 A Unix shell is a command-line interpreter or shell that provides a command line user interface for Unix-like operating systems  
+
+**History**  
