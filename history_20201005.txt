@@ -1,0 +1,69 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  HISTORY
+    4  history
+    5  nano code3.c
+    6  gcc code4.c
+    7  ls -lt
+    8  nano helloworld.c
+    9  gcc helloworld.c 
+   10  nano helloworld.c
+   11  gcc helloworld.c 
+   12  nano helloworld.c
+   13  gcc helloworld.c 
+   14  ./a.out
+   15  echo $?
+   16  gcc helloworld.c -o hello
+   17  ls -lt
+   18  nano helloworld.c
+   19  gcc helloworld.c -o hello
+   20  ech o1
+   21  echo o1
+   22  nano helloworld.c
+   23  gcc helloworld.c -o hello
+   24  nano helloworld.c
+   25  gcc helloworld.c -o hello
+   26  echo $?
+   27  nano helloworld.c
+   28  gcc helloworld.c -o hello
+   29  ./hello
+   30  cat helloworld.c
+   31  ./hello
+   32  nano helloworld.c
+   33  gcc helloworld.c -o hello
+   34  ./hello
+   35  cp helloworld.c code5.c
+   36  ls -lt
+   37  nano code5.c
+   38  gcc code5.c
+   39  gcc code5.c -o  code5
+   40  ./code5
+   41  nano code5.c
+   42  gcc code5.c -o  code5
+   43  ./code5
+   44  nano code5.c
+   45  gcc code5.c -o  code5
+   46  ./code5
+   47  nano code5.c
+   48  gcc code5.c -o  code5
+   49  ./code5
+   50  nano code5.c
+   51  gcc code5.c -o  code5
+   52  ./code5
+   53  nano code5.c
+   54  gcc code5.c -o  code5
+   55  ./code5
+   56  gcc code5.c -o  code5
+   57  nano code5.c
+   58  gcc code5.c -o  code5
+   59  ./code5
+   60  ls -lt
+   61  rm *.out
+   62  ls -lt
+   63  rm code5
+   64  ls -lt
+   65  rm hello
+   66  ls -lt
+   67  pwd
+   68  history
+   69  history > history_20201005.txt
